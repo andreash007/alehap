@@ -465,15 +465,10 @@ if ($node->created < $template_separate_time) {
 			   </div>
         	</form>-->
 			<div class="clear"></div>
-			<div class="add-to-cart_form_wrapper">
-            <?php if ((!$CARTLESS || $CARTTEST) && $is_shoppable) { ?>
-			<div class="book-available"><p class="line1"><?php print t('Available online'); ?></p><p class="line2"><?php print t('book this deal securely online') ?></p></div>
-      			<?php print $node->content['add_to_cart']['#value']; ?>
-      			<?php print $field_subproducts_rendered; ?>
- 				<?php }else{ ?>
-				<div class="book-offline"><p class="line1"><?php print t('Call/Chat'); ?></p><p class="line2"><?php print t('book by phone (08) 6264 5789 or chat') ?></p></div>
-      			<!--<span class="call-us-text"><?php print t('Call us') ?><br /><?php $phone = variable_get('alehap_phone', '(08) 6264 5789'); print $phone ?></span>-->
-    		<?php } ?>
+			<div class="weeks-deals">
+            <h4><?php print t('This Best Weeks Deals'); ?></h4>
+            <a href="/ve-may-bay-re"><img src="/sites/all/themes/alehap2/images/weeks-deals.jpg"></a>
+            <a href="/ve-may-bay-re" class="see-all"><?php print t('See All'); ?></a>
 			</div>
             </fieldset>
         </div>

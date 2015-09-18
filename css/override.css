@@ -3526,7 +3526,31 @@ padding: 9px 0px 0px 7px;
 	color: #323232;
 	display: block;
 	font-weight:normal;/*Firefox and IE display UVNVan Regular font as bold. So we make it normal*/
-	}
+}
+
+#right .weeks-deals h4 {
+  font-size: 14px;
+  font-family: 'UVNVanBold';
+  color: #F71E75;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: -20px;
+  z-index: 10;
+  position: relative;
+  top: 12px;
+}
+
+#right .weeks-deals a.see-all {
+  font-family: 'UVNVanBold';
+  color: #787878;
+  font-weight: bold;
+  top: -38px;
+  z-index: 10;
+  position: relative;
+  float: right;
+  font-size: 14px;
+  padding-right: 20px;
+}
 
 .views-field-title .field-content h3{
 	font-size: 14px;
