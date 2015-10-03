@@ -54,11 +54,11 @@
 	float: none;
 	display: inline-block;
 	position: relative;
-	top: 25px;
+	top: 1px;
 }
 
-.node-type-deal-set #deals .right .tieude {
-	margin-bottom: -25px;
+.node-type-deal-set #deals  .price {
+	margin-top: -20px;
 }
 
 .node-type-deal-set #deals .right .tieude_right.place-from  {
@@ -67,7 +67,7 @@
 	margin-right: 35px;
 	margin-left: 158px;
 	position: relative;
-	top: 25px;
+	top: 1px;
 }
 .node-type-deal-set #deals .right .tieude_right.place-from:after {
 	content: ""; 
@@ -85,3 +85,31 @@
 	font-size: 12px;
 	line-height: 16px;
  }
+ 
+/* Promo Video */
+#promo {
+	cursor:pointer;
+	width:640px;
+	position:relative;
+}
+#promo.inactive-state {
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+#promo #player {
+	top: 5px;
+	position: absolute;
+}
+
+#promo #overflow {
+	width:640px;
+	height:360px;
+	cursor: default;				
+	position: absolute;
+	top: 5px;
+	z-index: 2;
+}
+#promo div#player+#overflow{
+	background: url(../images/play_button.png) 100% 93% no-repeat;
+}
